@@ -9,3 +9,10 @@ Run (CIFAR10 with 50% symmetric noise)
 Run (CIFAR100 with 90% symmetric noise) 
 
 	python Train_cifar.py --dataset cifar100 --num_class 100 --noise_mode 'sym' --r 0.9 
+
+ # Citation
+ 	@article{crosssplit2023,
+      title={CrossSplit: Mitigating Label Noise Memorization through Data Splitting}, 
+      author={Jihye Kim and Aristide Baratin and Yan Zhang and Simon Lacoste-Julien},
+      journal={International Conference on Machine Learning},
+      year={2023}
